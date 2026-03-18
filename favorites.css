@@ -38,9 +38,26 @@ body {
     color: black;
 }
 
-.h1, .h2 {
-    text-align: center;
-    margin-top: 100px;
+
+.border1 {
+    background-color: #d4c4ab;
+    width: 95%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    font-size: larger;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 footer {
